@@ -1,17 +1,17 @@
 pragma solidity ^0.4.24;
 
 // ----------------------------------------------------------------------------
-// '0Fucks' token contract
+// 'AVAV' token contract
 //
-// Deployed to : 0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222
+// Deployed to : 0x1f21a16f97aFa987e1993d18eEcBA663d4f87121
 // Symbol      : AVAV
 // Name        : Auv Ava
 // Total supply: 21000000
 // Decimals    : 18
 //
-// Enjoy.
+// deployed by ginzbitcoin
 //
-// (c) by Moritz Neto with BokkyPooBah / Bok Consulting Pty Ltd Au 2017. The MIT Licence.
+// code by Moritz Neto with BokkyPooBah / Bok Consulting Pty Ltd Au 2017. The MIT Licence.
 // ----------------------------------------------------------------------------
 
 
@@ -99,7 +99,7 @@ contract Owned {
 // ERC20 Token, with the addition of symbol, name and decimals and assisted
 // token transfers
 // ----------------------------------------------------------------------------
-contract FucksToken is ERC20Interface, Owned, SafeMath {
+contract AVAVToken is ERC20Interface, Owned, SafeMath {
     string public symbol;
     string public  name;
     uint8 public decimals;
@@ -117,8 +117,8 @@ contract FucksToken is ERC20Interface, Owned, SafeMath {
         name = "Auv Ava";
         decimals = 18;
         _totalSupply = 21000000;
-        balances[0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222] = _totalSupply;
-        emit Transfer(address(0), 0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222, _totalSupply);
+        balances[0x1f21a16f97aFa987e1993d18eEcBA663d4f87121] = _totalSupply;
+        emit Transfer(address(0), 0x1f21a16f97aFa987e1993d18eEcBA663d4f87121, _totalSupply);
     }
 
 
